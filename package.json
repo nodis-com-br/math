@@ -1,11 +1,23 @@
 {
-  "name": "@nodis/frontend-math",
+  "name": "@nodis/math",
   "version": "0.1.0",
   "description": "Library of general resources to be consumed by another frontend projects.",
   "repository": "https://github.com/nodis-com-br/frontend-math.git",
   "author": "Thiago Oliveira <thiago.oliveira@nodis.com.br>",
-  "scripts": {},
-  "workspaces": [
-    "packages/*"
-  ]
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -cw",
+    "publish-package": "yarn publish --access restricted"
+  },
+  "devDependencies": {
+    "rollup": "1.27.3",
+    "rollup-plugin-typescript2": "0.25.2",
+    "typescript": "3.7.2"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
 }
