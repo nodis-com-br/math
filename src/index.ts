@@ -1,3 +1,5 @@
-import { prettierConfig } from './prettier-config';
+import { prettierConfig } from './prettierConfig';
+import { commitizenConfig } from './commitizenConfig';
+import * as eslintConfig from './eslintConfig';
 
-export { prettierConfig };
+export { prettierConfig, commitizenConfig, eslintConfig };
