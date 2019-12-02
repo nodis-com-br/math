@@ -12,10 +12,10 @@ Then add the following code:
 
 ```javascript
 // .eslintrc.js
-const { eslintconfig } = require('@nodis/math');
+const { eslintConfig } = require('@nodis/math');
 
 module.exports = {
-  ...eslintconfig.typescriptReactNative,
+  ...eslintConfig.typescriptReactNative,
 };
 ```
 
@@ -44,9 +44,9 @@ Then add the following code:
 
 ```javascript
 // .eslintrc.js
-const { eslintconfig } = require('@nodis/math');
+const { eslintConfig } = require('@nodis/math');
 
 module.exports = {
-  ...eslintconfig.typescriptReactWeb,
+  ...eslintConfig.typescriptReactWeb,
 };
 ```
