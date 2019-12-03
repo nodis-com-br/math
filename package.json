@@ -7,7 +7,7 @@
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -cw",
-    "publish-package": "yarn publish --access restricted",
+    "publish-package": "yarn build && yarn publish --access restricted",
     "lint": "run-s code-style:**",
     "code-style:typescript": "tsc --noEmit",
     "code-style:prettier": "prettier --check './**/*.js'",
