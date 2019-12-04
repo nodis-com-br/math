@@ -5,7 +5,7 @@
 Install the following libraries to your project:
 
 ```
-yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser babel-plugin-import eslint-import-resolver-babel-module eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks
+yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser babel-plugin-import eslint-import-resolver-babel-module eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-prettier
 ```
 
 Then add the following code:
@@ -37,7 +37,7 @@ module.exports = api => {
 Install the following libraries to your project:
 
 ```
-yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-cypress
+yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-cypress eslint-plugin-prettier
 ```
 
 Then add the following code:

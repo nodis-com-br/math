@@ -15,7 +15,7 @@ const rulesTypescript = {
 
 export const typescriptReactNative = {
   extends: ['airbnb', 'prettier', 'prettier/react'],
-  plugins: ['react', 'jsx-a11y', 'import', '@typescript-eslint'],
+  plugins: ['react', 'jsx-a11y', 'import', '@typescript-eslint', 'prettier'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 2018,
