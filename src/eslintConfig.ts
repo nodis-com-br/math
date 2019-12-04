@@ -5,9 +5,12 @@ const rulesTypescript = {
   'react/prop-types': 0,
   'react/display-name': 0,
   'react/jsx-filename-extension': 0,
+  'react/jsx-props-no-spreading': 0,
   'import/no-extraneous-dependencies': 0,
   'import/prefer-default-export': 0,
   'jsx-a11y/label-has-associated-control': 0,
+  'no-param-reassign': 0,
+  'prettier/prettier': 2,
 };
 
 export const typescriptReactNative = {
