@@ -10,12 +10,11 @@ const rulesTypescript = {
   'import/prefer-default-export': 0,
   'jsx-a11y/label-has-associated-control': 0,
   'no-param-reassign': 0,
-  'prettier/prettier': 2,
 };
 
 export const typescriptReactNative = {
   extends: ['airbnb', 'prettier', 'prettier/react'],
-  plugins: ['react', 'jsx-a11y', 'import', '@typescript-eslint', 'prettier'],
+  plugins: ['react', 'jsx-a11y', 'import', '@typescript-eslint'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 2018,
