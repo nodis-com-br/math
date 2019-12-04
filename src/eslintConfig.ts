@@ -10,11 +10,12 @@ const rulesTypescript = {
   'import/prefer-default-export': 0,
   'jsx-a11y/label-has-associated-control': 0,
   'no-param-reassign': 0,
+  'prettier/prettier': 2,
 };
 
 export const typescriptReactNative = {
   extends: ['airbnb', 'prettier', 'prettier/react'],
-  plugins: ['react', 'jsx-a11y', 'import', '@typescript-eslint'],
+  plugins: ['react', 'jsx-a11y', 'import', '@typescript-eslint', 'prettier'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 2018,
@@ -43,10 +44,6 @@ export const typescriptReactNative = {
       '@typescript-eslint/parser': ['.ts', '.tsx'],
     },
     'import/resolver': {
-      node: {
-        paths: ['app'],
-        extensions: ['.js', '.jsx', '.ts', '.tsx'],
-      },
       'babel-module': {
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
       },
@@ -56,7 +53,14 @@ export const typescriptReactNative = {
 
 export const typescriptReactWeb = {
   extends: ['airbnb', 'prettier', 'prettier/react'],
-  plugins: ['react', 'jsx-a11y', 'import', '@typescript-eslint', 'cypress'],
+  plugins: [
+    'react',
+    'jsx-a11y',
+    'import',
+    '@typescript-eslint',
+    'cypress',
+    'prettier',
+  ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 2018,
