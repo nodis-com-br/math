@@ -1,6 +1,6 @@
 {
   "name": "@nodis/math",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Library of general resources to be consumed by another frontend projects.",
   "repository": "https://github.com/nodis-com-br/frontend-math.git",
   "author": "Thiago Oliveira <thiago.oliveira@nodis.com.br>",
