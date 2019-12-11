@@ -1,58 +1,53 @@
 const COMMIT_TYPES = {
   feat: {
-    description: 'A new feature',
-    emoji: '🎸',
+    description: 'Introducing new features',
+    emoji: '✨',
     value: 'feat',
   },
   fix: {
-    description: 'A bug fix',
+    description: 'Fixing a bug',
     emoji: '🐛',
     value: 'fix',
   },
   refactor: {
-    description: 'A code change that neither fixes a bug or adds a feature',
+    description: 'Refactoring code',
     emoji: '♻️',
     value: 'refactor',
   },
-  test: {
-    description: 'Adding application tests',
-    emoji: '💊',
-    value: 'test',
-  },
-  format: {
-    description: 'Code formatting',
-    emoji: '💅',
-    value: 'format',
-  },
-  conflicts: {
-    description: 'Resolving conflicts',
-    emoji: '⚠️',
-    value: 'conflicts',
-  },
   remove: {
-    description: 'Removing unnecessary files',
-    emoji: '❌',
+    description: 'Removing code or files',
+    emoji: '🔥',
     value: 'remove',
   },
-  docs: {
-    description: 'Documentation only changes',
-    emoji: '📚',
-    value: 'docs',
+  test: {
+    description: 'Creating or updating tests',
+    emoji: '✅',
+    value: 'test',
+  },
+  packages: {
+    description: 'Managing dependencies',
+    emoji: '📦',
+    value: 'packages',
   },
   config: {
-    description: "Changing project's configuration",
+    description: 'Changing configuration files',
     emoji: '🔧',
     value: 'config',
   },
-  security: {
-    description: 'A security fix',
-    emoji: '🔒',
-    value: 'security',
+  docs: {
+    description: 'Writing docs',
+    emoji: '📝',
+    value: 'docs',
   },
   ci: {
     description: 'CI related changes',
-    emoji: '🎡',
+    emoji: '👷',
     value: 'ci',
+  },
+  analytics: {
+    description: 'Adding analytics or tracking code',
+    emoji: '📈',
+    value: 'analytics',
   },
 };
 

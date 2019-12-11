@@ -1,24 +1,23 @@
 {
   "name": "@nodis/math",
-  "version": "0.3.1",
+  "version": "1.1.0",
   "description": "Library of general resources to be consumed by another frontend projects.",
   "repository": "https://github.com/nodis-com-br/frontend-math.git",
   "author": "Thiago Oliveira <thiago.oliveira@nodis.com.br>",
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -cw",
-    "publish-package": "yarn publish --access restricted",
+    "publish-package": "yarn build && yarn publish --access restricted",
     "lint": "run-s code-style:**",
     "code-style:typescript": "tsc --noEmit",
     "code-style:prettier": "prettier --check './**/*.js'",
     "format": "run-s format:**",
-    "format:prettier": "yarn build && prettier --write './**/*.{js,ts}'"
+    "format:prettier": "yarn build && prettier --write './**/*.{js,ts}'",
+    "cm": "git add . && git-cz"
   },
-  "dependencies": {
-    "@commitlint/config-conventional": "8.2.0",
-    "git-cz": "3.3.0"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "git-cz": "3.3.0",
     "husky": "3.1.0",
     "lint-staged": "9.5.0",
     "prettier": "1.19.1",
@@ -43,5 +42,10 @@
       "yarn format:prettier",
       "git add"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
   }
 }

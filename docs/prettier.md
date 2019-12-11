@@ -12,10 +12,10 @@ Then add the following code:
 
 ```javascript
 // .prettierrc.js
-const { prettierConfig } = require("@nodis/math");
+const { prettierConfig } = require('@nodis/math');
 
 module.exports = {
-  ...prettierConfig
+  ...prettierConfig,
 };
 ```
 
@@ -32,17 +32,5 @@ Add that to your `settings.json`:
     { "language": "typescript", "autoFix": true },
     { "language": "typescriptreact", "autoFix": true }
   ],
-  "editor.formatOnSave": true,
-  "[javascript]": {
-    "editor.formatOnSave": false
-  },
-  "[javascriptreact]": {
-    "editor.formatOnSave": false
-  },
-  "[typescript]": {
-    "editor.formatOnSave": false
-  },
-  "[typescriptreact]": {
-    "editor.formatOnSave": false
-  }
+  "editor.formatOnSave": true
 ```

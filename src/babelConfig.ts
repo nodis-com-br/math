@@ -3,7 +3,7 @@ export const moduleResolver = [
   {
     root: ['.'],
     alias: {
-      '@': './app/',
+      '@': './src/',
     },
   },
 ];
