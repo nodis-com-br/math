@@ -11,6 +11,16 @@ const rulesTypescript = {
   'jsx-a11y/label-has-associated-control': 0,
   'no-param-reassign': 0,
   'prettier/prettier': 2,
+  'import/extensions': [
+    2,
+    'ignorePackages',
+    {
+      js: 'never',
+      jsx: 'never',
+      ts: 'never',
+      tsx: 'never',
+    },
+  ],
 };
 
 export const typescriptReactNative = {
