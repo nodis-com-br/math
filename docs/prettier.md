@@ -5,7 +5,7 @@
 Install the following libraries to your project:
 
 ```
-yarn add -D prettier
+yarn add -DE prettier
 ```
 
 Then add the following code:

@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`commitizenConfig should match snapshot 1`] = `
+Object {
+  "list": Array [
+    "feat",
+    "fix",
+    "refactor",
+    "remove",
+    "test",
+    "packages",
+    "config",
+    "docs",
+    "ci",
+    "analytics",
+  ],
+  "maxMessageLength": 100,
+  "minMessageLength": 0,
+  "questions": Array [
+    "type",
+    "scope",
+    "subject",
+    "body",
+    "breaking",
+    "issues",
+    "lerna",
+  ],
+  "scopes": Array [],
+  "types": Object {
+    "analytics": Object {
+      "description": "Adding analytics or tracking code",
+      "emoji": "📈",
+      "value": "analytics",
+    },
+    "ci": Object {
+      "description": "CI related changes",
+      "emoji": "👷",
+      "value": "ci",
+    },
+    "config": Object {
+      "description": "Changing configuration files",
+      "emoji": "🔧",
+      "value": "config",
+    },
+    "docs": Object {
+      "description": "Writing docs",
+      "emoji": "📝",
+      "value": "docs",
+    },
+    "feat": Object {
+      "description": "Introducing new features",
+      "emoji": "✨",
+      "value": "feat",
+    },
+    "fix": Object {
+      "description": "Fixing a bug",
+      "emoji": "🐛",
+      "value": "fix",
+    },
+    "packages": Object {
+      "description": "Managing dependencies",
+      "emoji": "📦",
+      "value": "packages",
+    },
+    "refactor": Object {
+      "description": "Refactoring code",
+      "emoji": "♻️",
+      "value": "refactor",
+    },
+    "remove": Object {
+      "description": "Removing code or files",
+      "emoji": "🔥",
+      "value": "remove",
+    },
+    "test": Object {
+      "description": "Creating or updating tests",
+      "emoji": "✅",
+      "value": "test",
+    },
+  },
+}
+`;

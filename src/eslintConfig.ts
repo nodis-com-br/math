@@ -106,3 +106,37 @@ export const typescriptReactWeb = {
     },
   },
 };
+
+export const typescript = {
+  extends: ['prettier'],
+  plugins: ['import', '@typescript-eslint', 'prettier'],
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaVersion: 2018,
+    sourceType: 'module',
+  },
+  env: {
+    jest: true,
+    es6: true,
+  },
+  rules: rulesTypescript,
+  overrides: [
+    {
+      files: ['*.ts'],
+      rules: {
+        '@typescript-eslint/no-unused-vars': [2, { args: 'none' }],
+      },
+    },
+  ],
+  settings: {
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts'],
+    },
+    'import/resolver': {
+      node: {
+        paths: ['src'],
+        extensions: ['.js', '.ts'],
+      },
+    },
+  },
+};

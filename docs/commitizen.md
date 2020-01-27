@@ -5,7 +5,7 @@
 Install the following libraries to your project:
 
 ```
-yarn add -D git-cz
+yarn add -DE git-cz
 ```
 
 Then add the following code:

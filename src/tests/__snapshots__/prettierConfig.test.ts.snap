@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`prettierConfig should match snapshot 1`] = `
+Object {
+  "endOfLine": "lf",
+  "overrides": Array [
+    Object {
+      "files": "*.json",
+      "options": Object {
+        "printWidth": 200,
+      },
+    },
+    Object {
+      "files": "*.scss",
+      "options": Object {
+        "printWidth": 200,
+        "singleQuote": true,
+      },
+    },
+  ],
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "all",
+}
+`;

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1580155928771" clover="3.2.0">
+  <project timestamp="1580155928771" name="All files">
+    <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="8" coveredelements="8" complexity="0" loc="8" ncloc="8" packages="1" files="4" classes="4"/>
+    <file name="babelConfig.ts" path="/Users/thiagonogueira/Projects/frontend-universe/math/src/babelConfig.ts">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+    </file>
+    <file name="commitizenConfig.ts" path="/Users/thiagonogueira/Projects/frontend-universe/math/src/commitizenConfig.ts">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="54" count="1" type="stmt"/>
+    </file>
+    <file name="eslintConfig.ts" path="/Users/thiagonogueira/Projects/frontend-universe/math/src/eslintConfig.ts">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="64" count="1" type="stmt"/>
+      <line num="110" count="1" type="stmt"/>
+    </file>
+    <file name="prettierConfig.ts" path="/Users/thiagonogueira/Projects/frontend-universe/math/src/prettierConfig.ts">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
