@@ -5,7 +5,7 @@
 Install the following libraries to your project:
 
 ```
-yarn add -D husky lint-staged
+yarn add -DE husky lint-staged
 ```
 
 Then add the following code:

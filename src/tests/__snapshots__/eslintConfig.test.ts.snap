@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`eslintConfig typescriptReactNative should match snapshot 1`] = `
+Object {
+  "env": Object {
+    "jest": true,
+  },
+  "extends": Array [
+    "airbnb",
+    "prettier",
+    "prettier/react",
+  ],
+  "globals": Object {
+    "__DEV__": "readonly",
+  },
+  "overrides": Array [
+    Object {
+      "files": Array [
+        "*.ts",
+        "*.tsx",
+      ],
+      "rules": Object {
+        "@typescript-eslint/no-unused-vars": Array [
+          2,
+          Object {
+            "args": "none",
+          },
+        ],
+      },
+    },
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": Object {
+    "ecmaFeatures": Object {
+      "jsx": true,
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+  },
+  "plugins": Array [
+    "react",
+    "jsx-a11y",
+    "import",
+    "@typescript-eslint",
+    "prettier",
+  ],
+  "rules": Object {
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "@typescript-eslint/no-explicit-any": 0,
+    "@typescript-eslint/no-var-requires": 0,
+    "import/extensions": Array [
+      2,
+      "ignorePackages",
+      Object {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never",
+      },
+    ],
+    "import/no-extraneous-dependencies": 0,
+    "import/prefer-default-export": 0,
+    "jsx-a11y/label-has-associated-control": 0,
+    "no-param-reassign": 0,
+    "prettier/prettier": 2,
+    "react/display-name": 0,
+    "react/jsx-filename-extension": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/prop-types": 0,
+  },
+  "settings": Object {
+    "import/parsers": Object {
+      "@typescript-eslint/parser": Array [
+        ".ts",
+        ".tsx",
+      ],
+    },
+    "import/resolver": Object {
+      "babel-module": Object {
+        "extensions": Array [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx",
+        ],
+      },
+    },
+  },
+}
+`;
+
+exports[`eslintConfig typescriptReactWeb should match snapshot 1`] = `
+Object {
+  "env": Object {
+    "browser": true,
+    "cypress/globals": true,
+    "es6": true,
+    "jest": true,
+  },
+  "extends": Array [
+    "airbnb",
+    "prettier",
+    "prettier/react",
+  ],
+  "overrides": Array [
+    Object {
+      "files": Array [
+        "*.ts",
+        "*.tsx",
+      ],
+      "rules": Object {
+        "@typescript-eslint/no-unused-vars": Array [
+          2,
+          Object {
+            "args": "none",
+          },
+        ],
+      },
+    },
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": Object {
+    "ecmaFeatures": Object {
+      "jsx": true,
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+  },
+  "plugins": Array [
+    "react",
+    "jsx-a11y",
+    "import",
+    "@typescript-eslint",
+    "cypress",
+    "prettier",
+  ],
+  "rules": Object {
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "@typescript-eslint/no-explicit-any": 0,
+    "@typescript-eslint/no-var-requires": 0,
+    "import/extensions": Array [
+      2,
+      "ignorePackages",
+      Object {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never",
+      },
+    ],
+    "import/no-extraneous-dependencies": 0,
+    "import/prefer-default-export": 0,
+    "jsx-a11y/label-has-associated-control": 0,
+    "no-param-reassign": 0,
+    "prettier/prettier": 2,
+    "react/display-name": 0,
+    "react/jsx-filename-extension": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/prop-types": 0,
+  },
+  "settings": Object {
+    "import/parsers": Object {
+      "@typescript-eslint/parser": Array [
+        ".ts",
+        ".tsx",
+      ],
+    },
+    "import/resolver": Object {
+      "node": Object {
+        "extensions": Array [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx",
+        ],
+        "paths": Array [
+          "src",
+        ],
+      },
+    },
+  },
+}
+`;
