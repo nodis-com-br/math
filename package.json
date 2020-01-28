@@ -1,6 +1,6 @@
 {
   "name": "@nodis/math",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Library of general resources to be consumed by another frontend projects.",
   "repository": "https://github.com/nodis-com-br/frontend-math.git",
   "author": "Thiago Oliveira <thiago.oliveira@nodis.com.br>",
@@ -38,6 +38,7 @@
     "is-ci-cli": "2.0.0",
     "jest": "25.1.0",
     "jest-runner-eslint": "0.7.6",
+    "jest-sonar-reporter": "2.0.0",
     "jest-watch-select-projects": "2.0.0",
     "jest-watch-typeahead": "0.4.2",
     "lint-staged": "9.5.0",
@@ -69,5 +70,9 @@
     "commitizen": {
       "path": "git-cz"
     }
+  },
+  "jestSonar": {
+    "reportPath": "coverage",
+    "reportFile": "sonar-report.xml"
   }
 }

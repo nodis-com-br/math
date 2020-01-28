@@ -4,5 +4,6 @@ module.exports = {
     '<rootDir>/src/**/*.{ts,tsx}',
     '!<rootDir>/src/index.ts',
   ],
-  projects: ['./test/jest.configs.js', './test/jest.lint.js'],
+  testResultsProcessor: 'jest-sonar-reporter',
+  projects: ['./test/jest.configs.js'],
 };
