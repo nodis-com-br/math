@@ -34,3 +34,5 @@ Add that to your `settings.json`:
   ],
   "editor.formatOnSave": true
 ```
+
+[< Go back](https://nodis-com-br.github.io/math/)

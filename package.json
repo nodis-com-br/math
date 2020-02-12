@@ -62,8 +62,11 @@
   },
   "lint-staged": {
     "*.{js,ts}": [
-      "yarn format:prettier",
-      "git add"
+      "yarn code-style:eslint --passWithNoTests",
+      "yarn test:coverage --passWithNoTests"
+    ],
+    "*.{js,json,ts,md}": [
+      "yarn format:prettier"
     ]
   },
   "config": {
