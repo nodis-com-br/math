@@ -1,5 +1,7 @@
 # Prettier
 
+All frontends projects use [Prettier](https://prettier.io/) to auto-format all files.
+
 ## Configuration
 
 Install the following libraries to your project:

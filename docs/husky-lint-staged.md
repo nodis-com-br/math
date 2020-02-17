@@ -1,5 +1,7 @@
 # Husky 🐶 + Lint Staged = 💘
 
+All frontends projects use [Husky](https://github.com/typicode/husky) and [Lint Staged](https://github.com/okonet/lint-staged) to prevent bad commits.
+
 ## Configuration
 
 Install the following libraries to your project:
