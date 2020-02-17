@@ -19,6 +19,6 @@
 ![Frontend Universe 16](images/universe/frontend-universe-16.png)
 ![Frontend Universe 17](images/universe/frontend-universe-17.png)
 ![Frontend Universe 18](images/universe/frontend-universe-18.png)
-![Frontend Universe 19](images/universe/frontend-universe.png)
+![Frontend Universe 19](images/universe/frontend-universe-19.png)
 
 [< Go back](https://nodis-com-br.github.io/math/)
