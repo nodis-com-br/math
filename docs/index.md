@@ -20,3 +20,5 @@ That's the documentation of the Nodis frontend team.
    - [Testing](https://nodis-com-br.github.io/math/testing)
    - [Sonar Qube](https://nodis-com-br.github.io/math/sonar-qube)
 8. [Deploy](https://nodis-com-br.github.io/math/deploy)
+9. Running our projects
+   - [Ceres](https://nodis-com-br.github.io/math/ceres)
