@@ -9,6 +9,16 @@ You need to install:
 - JDK/OpenJDK 8
 https://www.oracle.com/java/technologies/javase-jdk8-downloads.html
 
+or
+
+```
+sudo apt-get install openjdk-8-jre
+```
+
+```
+sudo apt install openjdk-8-jdk
+```
+
 - Android SDK (You can install Android Studio instead, but it's such a mess)
 https://developer.android.com/studio/#downloads
 
