@@ -1,6 +1,6 @@
-#First steps
+# First steps
 
-##npmjs
+## npmjs
 
 1. Create a npmjs account
 2. Open your .zshrc/.bashrc file and add the following line:
@@ -17,7 +17,7 @@ npm login
 
 4. Log on with your npmjs username, email and password
 
-##repos
+## repos
 [Front-end repositories on Github](https://github.com/search?q=topic%3Adevfront+org%3Anodis-com-br&type=Repositories)
 
 [insira diagrama explicando relação entre eles aqui]
