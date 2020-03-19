@@ -4,7 +4,7 @@
 
 [React Native's website is a good reference](https://reactnative.dev/docs/getting-started)
 
-[Rockseat's guide too](https://docs.rocketseat.dev/ambiente-react-native/android/linux)
+[Rocketseat's guide too](https://docs.rocketseat.dev/ambiente-react-native/android/linux)
 
 We won't be explaining how to run the app on an iPhone because we currently don't have one :(
 
@@ -32,9 +32,9 @@ sudo apt install openjdk-8-jdk
 
 1. Extract the files you downloaded in android sdk command line tools in your home
 
-2. Configure the ANDROID_HOME environment variable opening your .bashrc, .bash_profile or .zshrc file
+2. Add the following lines to your .bashrc, .bash_profile or .zshrc file
 
-```export ANDROID_HOME=[endereçodasuapastadoandroidsdk]``
+`export ANDROID_HOME=[endereçodasuapastadoandroidsdk]`
 
 (ex: export ANDROID_HOME=\$HOME/softwares/android_sdk)
 
