@@ -1,4 +1,6 @@
-# Installing dependencies
+# Ceres
+
+## Installing dependencies
 
 [React Native's website is a good reference](https://reactnative.dev/docs/getting-started)
 [Rockseat's guide too](https://docs.rocketseat.dev/ambiente-react-native/android/linux)
@@ -40,13 +42,13 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 3. Close and open your terminal again. Run `sdkmanager --sdk_root=${ANDROID_HOME} "platform-tools" "platforms;android-28"`
 
-# Troubleshooting
+## Troubleshooting
 
 If your Java version is different than 8, run `sudo update-alternatives --config java` and choose version 8 after installing it.
 
 If you already have Nodis app installed on your phone from the Play Store, uninstall it before running the project on it.
 
-# Running the project on your pc
+## Running the project on your pc
 
 If you don't want to/can't use an emulator, plug your android phone with an USB cable and activate it's android developer tools
 
