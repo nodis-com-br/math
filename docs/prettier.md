@@ -1,5 +1,7 @@
 # Prettier
 
+All frontends projects use [Prettier](https://prettier.io/) to auto-format all files.
+
 ## Configuration
 
 Install the following libraries to your project:
@@ -34,3 +36,5 @@ Add that to your `settings.json`:
   ],
   "editor.formatOnSave": true
 ```
+
+[< Go back](https://nodis-com-br.github.io/math/)

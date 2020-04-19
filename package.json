@@ -1,6 +1,6 @@
 {
   "name": "@nodis/math",
-  "version": "1.2.1",
+  "version": "1.2.3",
   "description": "Library of general resources to be consumed by another frontend projects.",
   "repository": "https://github.com/nodis-com-br/frontend-math.git",
   "author": "Thiago Oliveira <thiago.oliveira@nodis.com.br>",
@@ -62,8 +62,11 @@
   },
   "lint-staged": {
     "*.{js,ts}": [
-      "yarn format:prettier",
-      "git add"
+      "yarn code-style:eslint --passWithNoTests",
+      "yarn test:coverage --passWithNoTests"
+    ],
+    "*.{js,json,ts,md}": [
+      "yarn format:prettier"
     ]
   },
   "config": {

@@ -55,7 +55,7 @@ export const typescriptReactNative = {
     },
     'import/resolver': {
       'babel-module': {
-        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx', '.native.js'],
       },
     },
   },
