@@ -24,15 +24,25 @@ const COMMIT_TYPES = {
     emoji: '✅',
     value: 'test',
   },
+  config: {
+    description: 'Changing configuration files',
+    emoji: '🔧',
+    value: 'config',
+  },
   packages: {
     description: 'Managing dependencies',
     emoji: '📦',
     value: 'packages',
   },
-  config: {
-    description: 'Changing configuration files',
-    emoji: '🔧',
-    value: 'config',
+  analytics: {
+    description: 'Adding analytics or tracking code',
+    emoji: '📈',
+    value: 'analytics',
+  },
+  conflicts: {
+    description: 'Resolving merge conflicts',
+    emoji: '❗',
+    value: 'conflicts',
   },
   docs: {
     description: 'Writing docs',
@@ -43,11 +53,6 @@ const COMMIT_TYPES = {
     description: 'CI related changes',
     emoji: '👷',
     value: 'ci',
-  },
-  analytics: {
-    description: 'Adding analytics or tracking code',
-    emoji: '📈',
-    value: 'analytics',
   },
 };
 
