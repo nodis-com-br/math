@@ -25,7 +25,13 @@ const rulesTypescript = {
 
 export const typescriptReactNative = {
   extends: ['airbnb', 'prettier', 'prettier/react'],
-  plugins: ['react', 'jsx-a11y', 'import', '@typescript-eslint', 'prettier'],
+  plugins: [
+    'react',
+    'import',
+    '@typescript-eslint',
+    'prettier',
+    'eslint-plugin-import-helpers',
+  ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 2018,
@@ -40,7 +46,17 @@ export const typescriptReactNative = {
   globals: {
     __DEV__: 'readonly',
   },
-  rules: rulesTypescript,
+  rules: {
+    ...rulesTypescript,
+    'jsx-a11y/anchor-is-valid': 0,
+    'import-helpers/order-imports': [
+      'warn',
+      {
+        newlinesBetween: 'always',
+        groups: ['module', '/^@//', ['parent', 'sibling', 'index']],
+      },
+    ],
+  },
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
