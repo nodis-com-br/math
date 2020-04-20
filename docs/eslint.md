@@ -5,7 +5,7 @@
 Install the following libraries to your project:
 
 ```
-yarn add -DE @typescript-eslint/eslint-plugin @typescript-eslint/parser babel-plugin-import eslint-import-resolver-babel-module eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-prettier babel-plugin-module-resolver @babel/core @babel/runtime
+yarn add -DE @typescript-eslint/eslint-plugin @typescript-eslint/parser babel-plugin-import eslint-import-resolver-babel-module eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-import-helpers eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-prettier babel-plugin-module-resolver @babel/core @babel/runtime
 ```
 
 Then add the following code:
