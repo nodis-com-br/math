@@ -21,7 +21,21 @@ const rulesTypescript = {
       tsx: 'never',
     },
   ],
+  camelcase: 0,
+  'global-require': 0,
+  'no-underscore-dangle': 0,
+  'no-console': 2,
+  'no-plusplus': 0,
 };
+
+const overridesTypescript = [
+  {
+    files: ['*.ts', '*.tsx'],
+    rules: {
+      '@typescript-eslint/no-unused-vars': [2, { args: 'none' }],
+    },
+  },
+];
 
 export const typescriptReactNative = {
   extends: ['airbnb', 'prettier', 'prettier/react'],
@@ -57,14 +71,7 @@ export const typescriptReactNative = {
       },
     ],
   },
-  overrides: [
-    {
-      files: ['*.ts', '*.tsx'],
-      rules: {
-        '@typescript-eslint/no-unused-vars': [2, { args: 'none' }],
-      },
-    },
-  ],
+  overrides: overridesTypescript,
   settings: {
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts', '.tsx'],
@@ -102,14 +109,7 @@ export const typescriptReactWeb = {
     es6: true,
   },
   rules: rulesTypescript,
-  overrides: [
-    {
-      files: ['*.ts', '*.tsx'],
-      rules: {
-        '@typescript-eslint/no-unused-vars': [2, { args: 'none' }],
-      },
-    },
-  ],
+  overrides: overridesTypescript,
   settings: {
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts', '.tsx'],
@@ -136,14 +136,7 @@ export const typescript = {
     es6: true,
   },
   rules: rulesTypescript,
-  overrides: [
-    {
-      files: ['*.ts'],
-      rules: {
-        '@typescript-eslint/no-unused-vars': [2, { args: 'none' }],
-      },
-    },
-  ],
+  overrides: overridesTypescript,
   settings: {
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts'],
