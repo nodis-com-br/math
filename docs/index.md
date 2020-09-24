@@ -7,7 +7,7 @@ That's the documentation of the Nodis frontend team.
 1. [Team](https://nodis-com-br.github.io/math/team)
 2. [Architecture (Frontend Universe)](https://nodis-com-br.github.io/math/universe)
 3. [Projects Naming References](https://nodis-com-br.github.io/math/projects-naming-references)
-4. [NPM](https://nodis-com-br.github.io/math/npm)
+4. [NPM (@nodis)](https://nodis-com-br.github.io/math/npm)
 5. Stack
    - [Typescript](https://nodis-com-br.github.io/math/typescript)
 6. Best Practices

@@ -1,19 +1,21 @@
 # Commitizen
 
 All frontends projects use [Commitizen](https://github.com/commitizen/cz-cli) to standardize `commit messages`.
+<br/><br/>
 
 ## Recommended configuration
 
 Install the following library to your project:
 
 ```
-yarn add -DE git-cz
+yarn add git-cz -D
 ```
 
 Then add the following code:
 
+`changelog.config.js`
+
 ```javascript
-// changelog.config.js
 const { commitizenConfig } = require('@nodis/math');
 
 module.exports = {
@@ -21,10 +23,16 @@ module.exports = {
 };
 ```
 
-## Creating New Projects
+`package.json`
 
-Add the following script to your `package.json`:
-
-## Commit
+```json
+{
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
+  }
+}
+```
 
 [< Go back](https://nodis-com-br.github.io/math/)

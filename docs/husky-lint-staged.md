@@ -7,28 +7,26 @@ All frontends projects use [Husky](https://github.com/typicode/husky) and [Lint 
 Install the following libraries to your project:
 
 ```
-yarn add -DE husky lint-staged
+yarn add husky lint-staged -D
 ```
 
 Then add the following code:
 
+`package.json`
+
 ```javascript
-// package.json
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "tsc --noEmit && lint-staged"
     }
   },
   "lint-staged": {
     "*.{js,ts,tsx}": [
-      "yarn format:eslint",       // Commands that you want to run
-      "yarn format:prettier-code",
-      "yarn test",
-      "git add"
+      "your command here",
+      "your second command here",
     ],
     "*.{css,scss}": [
-      "yarn format:prettier-style",
-      "git add"
+      "your command here",
     ]
   },
 ```

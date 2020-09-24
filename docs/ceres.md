@@ -1,12 +1,14 @@
 # Ceres
 
+## References
+
+- [React Native's getting started](https://reactnative.dev/docs/getting-started)
+
+- [Rocketseat's guide](https://react-native.rocketseat.dev/)
+
+<br/>
+
 ## Installing dependencies
-
-[React Native's website is a good reference](https://reactnative.dev/docs/getting-started)
-
-[Rocketseat's guide too](https://docs.rocketseat.dev/ambiente-react-native/android/linux)
-
-We won't be explaining how to run the app on an iPhone because we currently don't have one :(
 
 You need to install:
 
@@ -14,7 +16,9 @@ You need to install:
 
 - [Android SDK in the Command Tools Line section](https://developer.android.com/studio/#downloads)
 
-#### JDK/OpenJDK8
+<br/>
+
+### JDK/OpenJDK8
 
 Tou can do it using oracle's website or the following commands
 
@@ -28,7 +32,9 @@ sudo apt install openjdk-8-jdk
 
 [if you're using macOS, follow this guide for openjdk8](https://adoptopenjdk.net/installation.html#x64_mac-jdk)
 
-#### Android Command Line Tools
+<br/>
+
+### Android Command Line Tools
 
 1. Extract the files you downloaded in android sdk command line tools in your home
 
@@ -57,18 +63,24 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 3. Close and open your terminal again. Run
    `sdkmanager --sdk_root=${ANDROID_HOME} "platform-tools" "platforms;android-28"`
 
+<br/>
+
 ## Troubleshooting
 
 If your Java version is different than 8, run `sudo update-alternatives --config java` and choose version 8 after installing it.
 
 If you already have Nodis app installed on your phone from the Play Store, uninstall it before running the project on it.
 
-## Running the project on your pc
+<br/>
+
+## Running the project on your PC
 
 If you don't want to/can't use an emulator, plug your android phone with an USB cable and activate it's android developer tools
 
 Run `yarn android` and press y to accept Android's license. Your phone will ask you if you want to install an app via USB - confirm it.
 Run `yarn start` to start the app server.
+
+We won't be explaining how to run the app on an iPhone because we currently don't have one :(
 
 ---
 
