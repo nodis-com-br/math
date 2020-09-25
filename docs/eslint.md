@@ -36,8 +36,6 @@ module.exports = {
 
 Install the following libraries to your project:
 
-> If you are using a CRA project, don't include eslint
-
 ```
 yarn add @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-cypress eslint-plugin-prettier -D
 ```
@@ -52,6 +50,46 @@ const { eslintConfig } = require('@nodis/math');
 module.exports = {
   ...eslintConfig.typescriptReactWeb,
 };
+```
+
+<br/>
+
+## Typescript Web (CRA)
+
+Install the following libraries to your project:
+
+```
+yarn add @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-airbnb eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-cypress eslint-plugin-prettier eslint-import-resolver-typescript eslint-plugin-import-helpers babel-plugin-root-import customize-cra react-app-rewired -D
+```
+
+Replace start, build e test scripts (react-scripts with react-app-rewired)
+
+Then add the following code:
+
+`.eslintrc.js`
+
+```javascript
+const { eslintConfig } = require('@nodis/math');
+
+module.exports = {
+  ...eslintConfig.typescriptCRA,
+};
+```
+
+`config-overrides.js`
+
+```javascript
+const { addBabelPlugin, override } = require('customize-cra');
+
+module.exports = override(
+  addBabelPlugin([
+    'babel-plugin-root-import',
+    {
+      rootPathSuffix: 'src',
+      rootPathPrefix: '@/',
+    },
+  ]),
+);
 ```
 
 <br/>
