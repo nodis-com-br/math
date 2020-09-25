@@ -123,6 +123,49 @@ export const typescriptReactWeb = {
   },
 };
 
+export const typescriptCRA = {
+  extends: ['airbnb', 'prettier', 'prettier/react'],
+  plugins: [
+    'react',
+    'jsx-a11y',
+    'import',
+    '@typescript-eslint',
+    'cypress',
+    'prettier',
+    'eslint-plugin-import-helpers',
+  ],
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaVersion: 11,
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
+  env: {
+    jest: true,
+    'cypress/globals': true,
+    browser: true,
+    es2020: true,
+  },
+  rules: {
+    ...rulesTypescript,
+    'import-helpers/order-imports': [
+      'warn',
+      {
+        newlinesBetween: 'always',
+        groups: ['module', '/^@//', ['parent', 'sibling', 'index']],
+      },
+    ],
+  },
+  overrides: overridesTypescript,
+  settings: {
+    'import/resolver': {
+      typescript: {},
+    },
+  },
+};
+
 export const typescript = {
   extends: ['prettier'],
   plugins: ['import', '@typescript-eslint', 'prettier'],
