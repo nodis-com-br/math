@@ -1,9 +1,12 @@
 {
-  "name": "@nodis/math",
+  "name": "@nodis-com-br/math",
   "version": "1.3.3",
   "description": "Library of general resources to be consumed by another frontend projects.",
-  "repository": "https://github.com/nodis-com-br/frontend-math.git",
+  "repository": "git://github.com/nodis-com-br/math.git",
   "author": "Thiago Oliveira <thiago.oliveira@nodis.com.br>",
+  "contributors": [
+    "Yuri Azevedo <yuri.azevedo@nodis.com.br>"
+  ],
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -cw",
@@ -48,6 +51,9 @@
     "ts-jest": "25.0.0",
     "typescript": "3.7.2",
     "yarn-run-all": "3.1.1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
